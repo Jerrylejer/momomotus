@@ -1,0 +1,30 @@
+form {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 29px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.input {
+    width: 392px;
+    height: 60px;
+    background-color: white;
+    margin-right: 18px;
+    color: black;
+    font-size: 100%;
+    padding-left: 5%;
+}
+
+.btn {
+    width: 144px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #0177C7;
+}

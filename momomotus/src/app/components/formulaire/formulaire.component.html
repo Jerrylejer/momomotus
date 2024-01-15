@@ -1,0 +1,7 @@
+<form [formGroup]="myForm" (ngSubmit)="storeName(myForm)">
+    <label for="">Pour commencer, quel est ton prénom ?</label>
+    <div class="container">
+        <input type="text" class="input" [(ngModel)]="valeur" name="valeur" formControlName="valeur" placeholder="Votre prénom"/> 
+        <button class="btn" type="submit">Let's go !</button>
+    </div>
+</form>
