@@ -1,3 +1,5 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
 *, ::before, ::after {
     padding: 0;
     margin: 0;
@@ -5,5 +7,6 @@
     background-color: #2B2B2B;
     color: white;
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    list-style: none;
 }
 

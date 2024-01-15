@@ -1,8 +1,41 @@
 <header>
-    <div class="container">
+    <div class="wrapper">
         <p class="prenom">Prêt.e {{prenom}} ?</p>
         <h1 class="h1">MOMOMOTUS</h1>
-        <img src="../../../assets/icones/211757_help_icon 1.png" alt="Infos">
+        <img src="../../../assets/icones/211757_help_icon 1.png" alt="Infos" (click)="openHelp()">
     </div>
-    <span></span>
+    <span></span>  
+  <!-- Modal -->
+<div class="modal" tabindex="-1" role="dialog" [ngStyle]="{'display':displayStyle}">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">REGLES</h4>
+          <a type="button" 
+                  (click)="closeHelp()">
+           <span>X</span> 
+          </a>
+      </div>
+      <div class="modal-body">
+        <p>
+          Vous avez six essais pour deviner le mot du jour, entre 6 et 9 lettres, commun à tous.
+Vous ne pouvez proposer que des mots commençant par la même lettre que le mot recherché, et qui se trouvent dans notre dictionnaire.
+Les noms propres ne sont pas acceptés.
+        </p>
+          <img src="../../../assets/icones/example.png" alt="texte explicatif jeu">
+        <ul>
+          <li>
+            🟥 Les lettres entourées d'un carré rouge sont bien placées
+          </li>
+          <li>
+            🟡 Les lettres entourées d'un cercle jaune sont mal placées (mais présentes dans le mot).
+          </li>
+          <li>
+            🟦 Les lettres qui restent sur fond bleu ne sont pas dans le mot.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 </header>

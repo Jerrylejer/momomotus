@@ -5,7 +5,7 @@ header {
     align-items: center;
 }
 
-.container {
+.wrapper{
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -27,4 +27,23 @@ span {
 
 .prenom {
     font-size: 20px;
+}
+
+.modal {
+    background-color: #2b2b2ba2;
+    height: 50%;
+    margin-top: 10%;
+}
+
+.modal-content {
+    border: 2px solid white;
+}
+
+span {
+    font-size: 30px;
+}
+
+ul {
+    margin-top: 20px;
+    padding: 0;
 }
