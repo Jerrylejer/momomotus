@@ -1,13 +1,17 @@
-section {
-    margin-top: 10%;
+.container {
     margin-bottom: 10%;
-    border: 1px solid white;
 }
 
-input {
-    width: 64px;
-    height: 64px;
+.grid-cell {
     background-color: #0177C7;
     border: 1px solid white;
+    height: 64px;
+    width: 64px;
     text-align: center;
-}
+    font-size: 38px;
+  }
+
+  .col {
+    padding: 0;
+  }
+

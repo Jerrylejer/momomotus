@@ -1,63 +1,7 @@
-<section>
-    <div>
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
+<div class="container mt-4">
+  <div class="row" *ngFor="let row of rows; let rowIndex = index">
+    <div class="col" *ngFor="let col of cols; let colIndex = index">
+      <input class="grid-cell"/>
     </div>
-    <div>
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-    </div>
-    <div>
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-    </div>
-    <div>
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-    </div>
-    <div>
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-    </div>
-    <div>
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-    </div>
-
-</section>
+  </div>
+</div>

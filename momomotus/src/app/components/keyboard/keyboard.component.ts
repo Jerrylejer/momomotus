@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class KeyboardComponent {
 // Dans le parent, on va créer un tableau avec tous les caractères.
-typingLetters: string[] = [
+displayKeyboard: string[] = [
   'A',
   'Z',
   'E',
