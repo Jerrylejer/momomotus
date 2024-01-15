@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.button {
+    min-width: 60px;
+    height: auto;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 30px;
+    margin: 17px;
+}
+
+.keyboard {
+    display: inline;
+    flex-wrap: wrap;
+}

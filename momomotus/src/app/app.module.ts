@@ -8,6 +8,8 @@ import { JeuComponent } from './pages/jeu/jeu.component';
 import { FormulaireComponent } from './components/formulaire/formulaire.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HeaderComponent } from './components/header/header.component';
+import { KeyboardComponent } from './components/keyboard/keyboard.component';
+import { ScreenComponent } from './components/screen/screen.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { HeaderComponent } from './components/header/header.component';
     AccueilComponent,
     JeuComponent,
     FormulaireComponent,
-    HeaderComponent
+    HeaderComponent,
+    KeyboardComponent,
+    ScreenComponent
   ],
   imports: [
     BrowserModule,
