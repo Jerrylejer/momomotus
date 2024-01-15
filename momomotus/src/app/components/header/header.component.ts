@@ -6,14 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  
+  prenom: any;
 
   ngOnInit(): void {
-      this.prenom = this.getPrenom();
+      this.prenom = localStorage.getItem('prénom');
   }
 
-  getPrenom() {
-    localStorage.getItem('prenom');
-  }
 
-  prenom: any = '';
 }
